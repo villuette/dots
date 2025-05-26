@@ -1,0 +1,60 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+h",
+        "command": "-editor.action.accessibilityHelpOpenHelpLink",
+        "when": "accessibilityHelpIsShown"
+    },
+    {
+        "key": "alt+h",
+        "command": "-testing.toggleTestingPeekHistory",
+        "when": "testing.isPeekVisible"
+    },
+    {
+        "key": "alt+h",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+  {
+    "key": "ctrl+n",
+    "command": "workbench.files.action.focusFilesExplorer",
+  "when": "editorTextFocus && !suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "sideBarFocus"
+  },
+  
+    {
+        "key": "ctrl+shift+e",
+        "command": "-workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+    "key": "ctrl+n",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "shift+k",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus",
+  },
+
+      {
+    "key": "enter",
+    "command": "search.action.focusSearchList",
+    "when": "searchInputBoxFocus && !searchResultsPending"
+    },
+]
